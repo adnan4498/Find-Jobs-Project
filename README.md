@@ -27,7 +27,7 @@ npm run dev
 
 * Modular filtering logic
 
-* Users can filter/search by jobType and role (e.g. FrontEnd, GraphicDesigner)
+* Users can search jobs by jobType and role (e.g. Latest Jobs or FrontEnd, GraphicDesigner)
 
 * Context-managed spinner, 0.5 Seconds Loader is shown everytime a user searchs a job
 
