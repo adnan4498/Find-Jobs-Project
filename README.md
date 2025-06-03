@@ -52,3 +52,9 @@ src/
 🎨 Design
 
 [Figma Link](https://www.figma.com/design/8IiWesnv0NANUkvnoar4HS/Frontend-Test?node-id=1-98&t=vUr3Hdn3nuH2smwQ-0)
+
+📝 Notes:
+- Fonts are preloaded in `index.html` for faster rendering and reduced load time.
+- Used `manualChunks` in `vite.config.js` to split React and Ant Design into separate bundles for better caching and performance.
+- Design was based on a 1440px layout; for screens below 1440px, I carefully adjusted the design to best match the original while maintaining usability."
+
