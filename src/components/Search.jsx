@@ -4,7 +4,7 @@ const Search = ({ searchProps }) => {
   return (
     <>
       <div
-        className={`flex items-center ${justify} lg:gap-2 xl:gap-[15px] py-[7px] px-2 ${searchWidth} pl-4 ${bgClr} rounded-lg h-[38px]`}
+        className={`flex cursor-pointer items-center ${justify} lg:gap-2 xl:gap-[15px] py-[7px] px-2 ${searchWidth} pl-4 ${bgClr} rounded-lg h-[38px]`}
       >
         <div>
           <img
@@ -13,7 +13,7 @@ const Search = ({ searchProps }) => {
             className="w-full lg:w-[15px]"
           />
         </div>
-        <div className={`hidden lg:block text-xs xl:text-[14px] ${textClr}`}>
+        <div className={`hidden lg:block text-xs xl:text-[14px] 2xl:text-[16px]  ${textClr}`}>
           Search
         </div>
       </div>

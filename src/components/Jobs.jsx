@@ -48,22 +48,20 @@ const Jobs = () => {
           <div className="text-[12px] md:text-[14px] font-medium text-[#737A91] text-sm">
             Similar:
           </div>
-          <div className="flex gap-2 2xl:gap-[12px] flex-wrap">
-            {roles.map((role) => (
-              <button
-                key={role}
-                onClick={() => handleToggleRole(role)}
-                className={`px-3 py-1.5 text-xs text-[#737A91] rounded-md border 
-              ${
-                selectedRoles.includes(role)
-                  ? "bg-blue-600 text-white border-blue-600"
-                  : "bg-white border-[#737A91]"
-              } transition duration-200`}
-              >
-                {role}
-              </button>
-            ))}
-          </div>
+          {roles.map((role) => (
+            <button
+              key={role}
+              onClick={() => handleToggleRole(role)}
+              className={`px-3 py-1.5 text-xs cursor-pointer text-[#737A91] rounded-md border transition-colors duration-200
+      ${
+        selectedRoles.includes(role)
+          ? "bg-blue-600 text-white border-blue-600 hover:bg-blue-700 hover:border-blue-700"
+          : "bg-white border-[#737A91] hover:bg-gray-100 hover:border-[#A0A0A0]"
+      }`}
+            >
+              {role}
+            </button>
+          ))}
         </div>
       </div>
 
@@ -136,7 +134,7 @@ const Jobs = () => {
                     </div>
 
                     <div className="mt-4 flex justify-between items-center">
-                      <button className="bg-[#0154AA] font-medium text-white w-48 px-4 py-2.5 rounded-lg 2xl:w-[115px] text-[14px]">
+                      <button className="bg-[#0154AA] hover:bg-[#1A6DD8] transition-colors duration-200 cursor-pointer font-medium text-white w-48 px-4 py-2.5 rounded-lg 2xl:w-[115px] text-[14px]">
                         Apply Now
                       </button>
                       <img

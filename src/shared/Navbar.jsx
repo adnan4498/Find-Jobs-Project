@@ -49,7 +49,7 @@ const Navbar = () => {
           <div className="flex items-center gap-[15px]">
             <Search searchProps={searchProps} />
 
-            <button className="bg-[#0154AA] text-white text-xs xl:text-[14px] w-32 xl:w-[147px] px-4 py-2.5 xl:px-[20px] xl:py-[10px] rounded-lg">
+            <button className="bg-[#0154AA] text-white text-xs xl:text-[14px] 2xl:text-[16px] cursor-pointer hover:bg-[#1A6DD8] transition-colors duration-200 w-32 xl:w-[147px] px-4 py-2.5 xl:px-[20px] xl:py-[10px] rounded-lg">
               Resume Builder
             </button>
 
