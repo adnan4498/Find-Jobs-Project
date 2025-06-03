@@ -148,9 +148,10 @@ body {
 
 /* antd Drwer Classes */
 /* drawer padding removed */
-:where(.css-dev-only-do-not-override-mc1tut).ant-drawer .ant-drawer-body {
-  padding: 0px !important;
+.ant-drawer .ant-drawer-body {
+  padding: 0 !important;
 }
+
 
 /* antd job type select */
 span.ant-select-selection-item {
