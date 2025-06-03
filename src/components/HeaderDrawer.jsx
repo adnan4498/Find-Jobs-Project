@@ -62,7 +62,7 @@ const HeaderDrawer = ({navLinks}) => {
 
   return (
     <>
-      <div>
+      <div className="">
         <Space>
           <div className="">
             <Button
@@ -134,7 +134,7 @@ const HeaderDrawer = ({navLinks}) => {
                 ))}
               </div>
 
-              <div className="flex flex-col gap-2">
+              <div className="flex flex-col gap-2 mb-4">
                 <div>
                   <JobTypeDropdown />
                 </div>
