@@ -80,7 +80,7 @@ const Jobs = () => {
                   {type} {!type.includes("Jobs") && "Jobs"}{" "}
                 </div>
                 <button className="text-[#0154AA] text-sm border-b border-[#0154AA]">
-                  See {type}
+                  See {type} {!type.includes("Jobs") && "Jobs"}{" "}
                 </button>
               </div>
 
@@ -109,7 +109,9 @@ const Jobs = () => {
                         <div className="text-2xl 2xl:text-[14px] font-medium leading-tigh text-[#333333]">
                           {item.title}
                         </div>
-                        <h3 className="2xl:hidden font-medium -mt-[2px]">{item.company}</h3>
+                        <h3 className="2xl:hidden font-medium -mt-[2px]">
+                          {item.company}
+                        </h3>
                         <div className="hidden font-medium text-[#333333] 2xl:block text-[12px] -mt-[2px]">
                           {item.company}
                         </div>
