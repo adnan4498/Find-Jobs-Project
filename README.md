@@ -1,12 +1,48 @@
-# React + Vite
+Frontend Test Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A technical demo built with modern React stack. It includes Searching Job by type and role, spinner control, and UI components with clean modular structure.
 
-Currently, two official plugins are available:
+⚙️ Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Vite – Fast dev tooling
 
-## Expanding the ESLint configuration
+React – UI library
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Tailwind CSS – Utility CSS
+
+Ant Design – UI components
+
+Context API – State management
+
+Custom Modules – Filtering & loading logic
+
+🔧 Setup
+
+git clone <repo-url>
+cd project-directory
+npm install
+npm run dev
+
+🧩 Features
+
+Modular filtering logic
+
+Users can filter/search by jobType and role (e.g. FrontEnd, GraphicDesigner)
+
+Context-managed spinner, 0.5 Seconds Loader is shown everytime a user searchs a job
+
+Fully Responsive UI
+
+📁 Structure
+
+src/
+├── components /
+├── customModules / filteringModules
+├── data / JobsData.js
+├── shared / Navbar.jsx
+├── utils / ContextApi
+└── main.jsx
+
+🎨 Design
+
+[Figma Link](https://www.figma.com/design/8IiWesnv0NANUkvnoar4HS/Frontend-Test?node-id=1-98&t=vUr3Hdn3nuH2smwQ-0)
