@@ -10,7 +10,7 @@ export default defineConfig({
         manualChunks: {
           // Split common heavy libraries into their own chunks
           react: ['react', 'react-dom'],
-          antd: ['antd'],
+          // antd: ['antd'],
         },
       },
     },
