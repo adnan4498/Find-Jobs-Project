@@ -36,11 +36,17 @@ npm run dev
 📁 Structure
 
 src/
+
 ├── components /
+
 ├── customModules / filteringModules
+
 ├── data / JobsData.js
+
 ├── shared / Navbar.jsx
+
 ├── utils / ContextApi
+
 └── main.jsx
 
 🎨 Design
