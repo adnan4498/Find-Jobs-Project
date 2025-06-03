@@ -149,7 +149,7 @@ body {
 /* antd Drwer Classes */
 /* drawer padding removed */
 :where(.css-dev-only-do-not-override-mc1tut).ant-drawer .ant-drawer-body {
-  padding: 0px;
+  padding: 0px !important;
 }
 
 /* antd job type select */
