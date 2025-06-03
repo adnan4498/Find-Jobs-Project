@@ -4,17 +4,17 @@ A technical demo built with modern React stack. It includes Searching Job by typ
 
 ⚙️ Tech Stack
 
-Vite – Fast dev tooling
+* Vite – Fast dev tooling
 
-React – UI library
+* React – UI library
 
-Tailwind CSS – Utility CSS
+* Tailwind CSS – Utility CSS
 
-Ant Design – UI components
+* Ant Design – UI components
 
-Context API – State management
+* Context API – State management
 
-Custom Modules – Filtering & loading logic
+* Custom Modules – Filtering & loading logic
 
 🔧 Setup
 
@@ -25,13 +25,13 @@ npm run dev
 
 🧩 Features
 
-Modular filtering logic
+* Modular filtering logic
 
-Users can filter/search by jobType and role (e.g. FrontEnd, GraphicDesigner)
+* Users can filter/search by jobType and role (e.g. FrontEnd, GraphicDesigner)
 
-Context-managed spinner, 0.5 Seconds Loader is shown everytime a user searchs a job
+* Context-managed spinner, 0.5 Seconds Loader is shown everytime a user searchs a job
 
-Fully Responsive UI
+* Fully Responsive UI
 
 📁 Structure
 
